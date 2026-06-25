@@ -1,7 +1,7 @@
 [project]
-name = "mlflow-guide-stat4decision"
+name = "mlflow-post"
 version = "0.1.0"
-description = "Code du guide MLflow de Stat4decision (article de blog)."
+description = "Code du guide MLflow de Stat4decision (article de blog https://www.stat4decision.com/fr/mlflow-modeles-machine-learning/)."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
