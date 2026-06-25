@@ -1,0 +1,23 @@
+[project]
+name = "mlflow-guide-stat4decision"
+version = "0.1.0"
+description = "Code du guide MLflow de Stat4decision (article de blog)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "mlflow>=3.1",
+    "scikit-learn>=1.5",
+    "pandas>=2.2",
+    "numpy>=1.26",
+]
+
+# Ce dépôt est une collection de scripts d'exemple, pas un paquet à installer :
+# on indique à uv de ne pas tenter de le "construire".
+[tool.uv]
+package = false
+
+# Quelques règles de style, pour un code propre (optionnel).
+[tool.ruff]
+line-length = 100
+target-version = "py310"
