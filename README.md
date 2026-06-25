@@ -1,6 +1,6 @@
 # Guide MLflow par Stat4decision
 
-Ce dépôt rassemble tout le code de l'article de blog **« MLflow : maîtriser le cycle de vie de vos modèles de machine learning »**, publié sur [stat4decision.com](https://www.stat4decision.com/).
+Ce dépôt rassemble tout le code de l'article de blog **« MLflow : maîtriser le cycle de vie de vos modèles de machine learning »**, publié sur https://www.stat4decision.com/fr/mlflow-modeles-machine-learning/.
 
 L'objectif est simple : vous permettre de tester MLflow vous-même, étape par étape, sur un petit jeu de données (la classification des vins de scikit-learn). Chaque script est court, commenté, et se lance indépendamment.
 
