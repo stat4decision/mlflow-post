@@ -1,0 +1,15 @@
+# Environnements
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# MLflow (artefacts générés par les exemples)
+mlruns/
+mlartifacts/
+mlflow.db
+artifacts/
+feature_importance.csv
+wine_model/
+
+# Note : on garde uv.lock dans le dépôt pour une installation reproductible.
